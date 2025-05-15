@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spirit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <h1>Spirit</h1>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#team">Membros</a>
+      <a href="#robots">Robôs</a>
+      <a href="#events">Competições</a>
+      </nav>
+  </header>
+
+  
+
+  <main>
+    <!-- Seção Home -->
+    <section id="home">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma equipe apaixonada por robótica e competições...</p>
+    </section>
+
+    <!-- Seção Membros (carregada via JS) -->
+    <section id="team">
+      <h2>Nossa Equipe</h2>
+      <div class="team-grid" id="teamContainer"></div>
+    </section>
+
+    <!-- Seção Robôs (carregada via JS) -->
+    <section id="robots">
+      <h2>Nossos Robôs</h2>
+      <div class="robots-grid" id="robotsContainer"></div>
+    </section>
+
+    <!-- Seção Competições (formulário + lista) -->
+    <section id="events">
+      <h2>Próximas Competições</h2>
+      <ul id="eventsList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Equipe Spirit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
